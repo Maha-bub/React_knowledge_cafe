@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "title": "The Future of Web Development",
+        "cover_img": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+        "author": "John Doe",
+        "time": 5,
+        "hastags": [
+            "Web Development",
+            "Technology",
+            "Future"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Getting Started with React",
+        "cover_img": "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+        "author": "Sarah Smith",
+        "time": 8,
+        "hastags": [
+            "React",
+            "JavaScript",
+            "Frontend"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "A Beginner's Guide to TypeScript",
+        "cover_img": "https://images.unsplash.com/photo-1516116216624-53e697fedbea",
+        "author": "Michael Brown",
+        "time": 6,
+        "hastags": [
+            "TypeScript",
+            "Programming",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Why Developers Should Learn Git",
+        "cover_img": "https://images.unsplash.com/photo-1556075798-4825dfaaf498",
+        "author": "David Wilson",
+        "time": 4,
+        "hastags": [
+            "Git",
+            "GitHub",
+            "Development"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Building Modern User Interfaces",
+        "cover_img": "https://images.unsplash.com/photo-1559028012-481c04fa702d",
+        "author": "Emma Johnson",
+        "time": 7,
+        "hastags": [
+            "UI",
+            "UX",
+            "Design"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Understanding APIs for Beginners",
+        "cover_img": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+        "author": "Alex Martin",
+        "time": 10,
+        "hastags": [
+            "API",
+            "Backend",
+            "Programming"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "How to Become a Better Programmer",
+        "cover_img": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+        "author": "Daniel Clark",
+        "time": 9,
+        "hastags": [
+            "Programming",
+            "Career",
+            "Learning"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Introduction to Next.js",
+        "cover_img": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+        "author": "Olivia Taylor",
+        "time": 12,
+        "hastags": [
+            "Next.js",
+            "React",
+            "Web Development"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Clean Code Practices Every Developer Needs",
+        "cover_img": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
+        "author": "James Anderson",
+        "time": 6,
+        "hastags": [
+            "Clean Code",
+            "Programming",
+            "Best Practices"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "The Roadmap to Becoming a Full Stack Developer",
+        "cover_img": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+        "author": "Sophia Williams",
+        "time": 15,
+        "hastags": [
+            "Full Stack",
+            "Career",
+            "Web Development"
+        ]
+    }
+]

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import './App.css'
+import Header from './Components/Header'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
 
-      <h1 className='text-3xl text-red-500 bg-slate-600'>Knowledge cafe</h1>
+      <Header></Header>
 
     </>
   )
