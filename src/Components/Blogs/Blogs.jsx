@@ -11,9 +11,9 @@ const Blogs = () => {
     return (
         <div div className="w-2/3">
             <h2>Blogs: {Blogs.length}</h2>;
-            {/* {
-                blogs.map((blogs))
-            } */}
+            {
+                blogs.map((blog) => <Blog blog={blog}></Blog>)
+            }
         </div>
     );
 };
