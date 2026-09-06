@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import Header from './Components/Header'
 import Blogs from './Components/Blogs/Blogs'
+import Bookmarks from './Components/Bookmarks/Bookmarks'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,8 +12,10 @@ function App() {
     <>
 
       <Header></Header>
-      <Blogs></Blogs>
-
+      <div className=' flex w-full'>
+        <Blogs ></Blogs>
+        <Bookmarks ></Bookmarks>
+      </div>
     </>
   )
 }

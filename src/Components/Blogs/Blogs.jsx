@@ -2,16 +2,19 @@ import { data } from 'autoprefixer';
 import React, { useEffect, useState } from 'react';
 
 const Blogs = () => {
-    const [Blogs, setBlogs] = useState([]);
+    const [blogs, setBlogs] = useState([]);
     useEffect(() => {
         fetch('blogs.json')
             .then(res => res.json())
             .then(data => setBlogs(data))
     }, [])
     return (
-        <>
-            <h2>Blogs: {Blogs.length}</h2>
-        </>
+        <div div className="w-2/3">
+            <h2>Blogs: {Blogs.length}</h2>;
+            {/* {
+                blogs.map((blogs))
+            } */}
+        </div>
     );
 };
 
