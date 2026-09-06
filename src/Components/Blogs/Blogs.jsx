@@ -1,10 +1,16 @@
-import React, { useState } from 'react';
+import { data } from 'autoprefixer';
+import React, { useEffect, useState } from 'react';
 
 const Blogs = () => {
-    const [] = useState([]);
+    const [Blogs, setBlogs] = useState([]);
+    useEffect(() => {
+        fetch('blogs.json')
+            .then(res => res.json())
+            .then(data => setBlogs(data))
+    }, [])
     return (
         <>
-            <h2>Blogs:</h2>
+            <h2>Blogs: {Blogs.length}</h2>
         </>
     );
 };
