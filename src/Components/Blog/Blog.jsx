@@ -4,10 +4,10 @@ const Blog = ({ blog }) => {
     console.log(blog)
     const { title, cover_img, author, time, date, hastags } = blog;
     return (
-        <div>
+        <div className="mb-4">
             <img src={cover_img} alt="" className="" />
             <div className="flex justify-between items-center">
-                <div className="flex items-center ">
+                <div className="flex items-center my-4">
                     <img src={AuthorImg} alt='' className="w-14" />
                     <div className="ml-4">
                         <h3>{author}</h3>
@@ -21,7 +21,7 @@ const Blog = ({ blog }) => {
             </div>
             <h2 className="text-2xl">{title}</h2>
             {
-                hastags.map((tag, index) =>  <span><a key={index} href="">#{tag}</a></span>)
+                hastags.map((tag, index) => <span><a className="ml-2" key={index} href="">#{tag}</a></span>)
             }
         </div>
     );
