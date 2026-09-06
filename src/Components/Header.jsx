@@ -1,12 +1,12 @@
-import React from 'react'
+import profile from '../assets/images/profile.png'
 
 export default function Header() {
     return (
         <>
-            <header>
+            <header className='flex justify-between mx-4 p-3 items-center'>
 
-                <h1 className='text-3xl text-red-500'>Knowledge cafe</h1>
-                {/* <img src={ } alt="" /> */}
+                <h1 className='text-4xl  text-black-600 text-center '>Knowledge cafe</h1>
+                <img src={profile} alt="" />
             </header>
         </>
     )
