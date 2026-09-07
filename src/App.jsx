@@ -17,11 +17,12 @@ function App() {
 
       <Header></Header>
       <div className=' flex max-w-7xl mx-auto'>
-        <Blogs handleBookMarks={handleBookMarks} ></Blogs>
+        <Blogs handleBookMarks={()=>handleBookMarks(blog)} ></Blogs>
         <Bookmarks ></Bookmarks>
       </div>
     </>
   )
 }
+
 
 export default App

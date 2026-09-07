@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import AuthorImg from '../../assets/images/profile.png'
 import { IoBookmarks } from "react-icons/io5";
 
-const Blog = ({ blog,handleBookMarks }) => {
+const Blog = ({ blog, handleBookMarks }) => {
     console.log(blog)
     const { title, cover_img, author, time, date, hastags } = blog;
     return (
@@ -30,6 +30,7 @@ const Blog = ({ blog,handleBookMarks }) => {
     );
 };
 Blog.PropTypes = {
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    handleBookMarks: PropTypes.func
 }
 export default Blog;
