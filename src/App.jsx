@@ -8,8 +8,8 @@ import Bookmarks from './Components/Bookmarks/Bookmarks'
 function App() {
 
   const [bookMarks, setBookMarks] = useState([]);
-  const handleBookMarks = () => {
-    console.log("bookmarks adding soong!")
+  const handleBookMarks = (blog) => {
+    console.log("bookmarks adding soong!",blog)
   }
 
   return (
@@ -17,7 +17,7 @@ function App() {
 
       <Header></Header>
       <div className=' flex max-w-7xl mx-auto'>
-        <Blogs ></Blogs>
+        <Blogs handleBookMarks={handleBookMarks} ></Blogs>
         <Bookmarks ></Bookmarks>
       </div>
     </>

@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import AuthorImg from '../../assets/images/profile.png'
 import { IoBookmarks } from "react-icons/io5";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog,handleBookMarks }) => {
     console.log(blog)
     const { title, cover_img, author, time, date, hastags } = blog;
     return (
@@ -18,7 +18,7 @@ const Blog = ({ blog }) => {
                 </div>
                 <div className="flex items-center justify-items-center gap-2">
                     <small>{time} mins read </small>
-                    <button><IoBookmarks /></button>
+                    <button onClick={handleBookMarks}><IoBookmarks /></button>
 
                 </div>
             </div>
