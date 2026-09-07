@@ -18,7 +18,7 @@ const Blog = ({ blog, handleBookMarks }) => {
                 </div>
                 <div className="flex items-center justify-items-center gap-2">
                     <small>{time} mins read </small>
-                    <button onClick={handleBookMarks}><IoBookmarks /></button>
+                    <button onClick={()=>handleBookMarks(blog)}><IoBookmarks /></button>
 
                 </div>
             </div>
