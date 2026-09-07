@@ -6,7 +6,11 @@ import Blogs from './Components/Blogs/Blogs'
 import Bookmarks from './Components/Bookmarks/Bookmarks'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const [bookMarks, setBookMarks] = useState([]);
+  const handleBookMarks = () => {
+    console.log("bookmarks adding soong!")
+  }
 
   return (
     <>
